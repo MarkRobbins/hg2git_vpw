@@ -23,7 +23,9 @@ post-commit.autopush = hg push
 
 Then you can push, or will push on commits
 
-do a commit then move the master bookmark to default
+do a commit then move the master bookmark to default by right clicking on tip in workbench and selecting bookmarks
+
+after that the master bm should keep up with default
 
 
 
