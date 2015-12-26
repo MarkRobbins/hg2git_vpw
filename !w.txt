@@ -1,7 +1,11 @@
-Make the directory an hg repo locally
-do a first commit
+http://hg-git.github.io/
+http://www.ryadel.com/en/using-github-with-mercurial-and-tortoisehg/
 
-This will set the master bm to be default,so a ref gets created
+Make the directory an hg repo locally
+
+Do a first commit
+
+This will set the master bm to be default, so a ref gets created
 
 hg bookmark -r default master
 
