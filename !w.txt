@@ -23,5 +23,7 @@ post-commit.autopush = hg push
 
 Then you can push, or will push on commits
 
+do a commit then move the master bookmark to default
+
 
 
