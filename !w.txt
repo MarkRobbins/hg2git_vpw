@@ -1,0 +1,27 @@
+Make the directory an hg repo locally
+do a first commit
+
+This will set the master bm to be default,so a ref gets created
+
+hg bookmark -r default master
+
+Create new repo on github
+
+copy the git https ... https://github.com/MarkRobbins/hggit_vpw.git
+
+add the following to hg repo settings file
+
+[paths]
+default=git+ssh://git@github.com/MarkRobbins/hggit_vpw.git
+
+[ui]
+ssh = "TortoisePlink.exe"
+
+[hooks]
+#optional, push on commit
+post-commit.autopush = hg push
+
+Then you can push, or will push on commits
+
+
+
